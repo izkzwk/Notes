@@ -11,6 +11,11 @@
 		974C404F29DB8F5600E8009C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974C404E29DB8F5600E8009C /* ContentView.swift */; };
 		974C405129DB8F5800E8009C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 974C405029DB8F5800E8009C /* Assets.xcassets */; };
 		974C405429DB8F5800E8009C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 974C405329DB8F5800E8009C /* Preview Assets.xcassets */; };
+		974C405D29DB912300E8009C /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974C405C29DB912300E8009C /* Note.swift */; };
+		97688E8929E2F4E200D03DAC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97688E8829E2F4E200D03DAC /* DetailView.swift */; };
+		97688E8B29E2FBA600D03DAC /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97688E8A29E2FBA600D03DAC /* CreditsView.swift */; };
+		97688E8D29E2FC0500D03DAC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97688E8C29E2FC0500D03DAC /* HeaderView.swift */; };
+		97688E8F29E3057100D03DAC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97688E8E29E3057100D03DAC /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		974C404E29DB8F5600E8009C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		974C405029DB8F5800E8009C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		974C405329DB8F5800E8009C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		974C405C29DB912300E8009C /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		97688E8829E2F4E200D03DAC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		97688E8A29E2FBA600D03DAC /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		97688E8C29E2FC0500D03DAC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		97688E8E29E3057100D03DAC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				974C404C29DB8F5600E8009C /* NotesApp.swift */,
-				974C404E29DB8F5600E8009C /* ContentView.swift */,
+				974C405B29DB911000E8009C /* Model */,
+				974C405A29DB910200E8009C /* View */,
 				974C405029DB8F5800E8009C /* Assets.xcassets */,
 				974C405229DB8F5800E8009C /* Preview Content */,
 			);
@@ -65,6 +76,26 @@
 				974C405329DB8F5800E8009C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		974C405A29DB910200E8009C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				974C404E29DB8F5600E8009C /* ContentView.swift */,
+				97688E8829E2F4E200D03DAC /* DetailView.swift */,
+				97688E8A29E2FBA600D03DAC /* CreditsView.swift */,
+				97688E8C29E2FC0500D03DAC /* HeaderView.swift */,
+				97688E8E29E3057100D03DAC /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		974C405B29DB911000E8009C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				974C405C29DB912300E8009C /* Note.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97688E8F29E3057100D03DAC /* SettingsView.swift in Sources */,
+				97688E8D29E2FC0500D03DAC /* HeaderView.swift in Sources */,
 				974C404F29DB8F5600E8009C /* ContentView.swift in Sources */,
+				97688E8929E2F4E200D03DAC /* DetailView.swift in Sources */,
 				974C404D29DB8F5600E8009C /* NotesApp.swift in Sources */,
+				97688E8B29E2FBA600D03DAC /* CreditsView.swift in Sources */,
+				974C405D29DB912300E8009C /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
